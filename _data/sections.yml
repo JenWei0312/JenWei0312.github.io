@@ -11,7 +11,8 @@
   title: Experience
   url: /experience/
   excerpt: "T-shaped career: before tech, I worked in quantitative finance."
-  icon: /assets/images/fairy.JPG
+  icons:
+    - /assets/images/fairy.JPG
 
 - key: projects
   title: Projects
@@ -36,4 +37,5 @@
   title: Services
   url: /services/
   excerpt: "Here’s how I can help: research, prototyping, reviews, and strategy."
-  icon: /assets/images/fairy.JPG
+  icons: 
+   - /assets/images/fairy.JPG
