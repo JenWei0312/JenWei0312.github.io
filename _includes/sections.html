@@ -23,10 +23,19 @@ Reads items from _data/sections.yml.
     </section>
 
     <footer class="post-meta">
-      {%- if section.icon -%}
-        <img class="author-thumb" src="{{ section.icon | relative_url }}" alt="{{ section.title }} icon" nopin="nopin" />
+      {%- if section.icons -%}
+        {%- for icon in section.icons -%}
+            {%- if icon contains "http" -%}
+            <img class="author-thumb" src="{{ icon }}" alt="{{ section.title }} icon" nopin="nopin" />
+            {%- elsif icon contains "🤗" -%}
+            <span style="font-size: 20px;">🤗</span>
+            {%- else -%}
+            <img class="author-thumb" src="{{ icon | relative_url }}" alt="{{ section.title }} icon" nopin="nopin" />
+            {%- endif -%}
+        {%- endfor -%}
       {%- endif -%}
-
+    
+      
       <a href="{{ section.url | relative_url }}">{{ section.title }}</a>
       <time class="post-date" datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ site.time | date_to_string }}</time>
     </footer>

@@ -2247,6 +2247,31 @@ body.page-template .post-title {
     }
 }
 
+/* ==========================================================================
+   Custom tweaks for Bird of Paradise AI
+   ========================================================================== */
+
+   .post {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .post:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  .post-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  .post-meta img.author-thumb {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    vertical-align: middle;
+  }  
+
 
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
