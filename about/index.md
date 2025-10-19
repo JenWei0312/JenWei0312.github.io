@@ -13,8 +13,8 @@ As a Full-stack AI Researcher with a PhD in Applied Math, my mission is to bridg
 
 My approach is grounded in deconstructing, building, and optimizing complex architectures from the ground up. My current research is focused on the frontier of large-scale model training, where I am actively implementing and analyzing novel optimizers like Muon and navigating the immense challenges of distributed training frameworks such as PyTorch FSDP. This builds on my foundational work in:
 
-• RL Architectures: Implementing end-to-end systems like ReTool for strategic tool use. 
-• Advanced Mechanisms: Building DeepSeek's MLA and MoE from scratch. 
-• Core Transformers: Authoring the tutorials and code that my PyData talk is based on.
+- RL Architectures: Implementing end-to-end systems like ReTool for strategic tool use. 
+- Advanced Mechanisms: Building DeepSeek's MLA and MoE from scratch. 
+- Core Transformers: Authoring the tutorials and code that my PyData talk is based on.
 
 My unique value lies at the intersection of mathematics, model architecture, and systems engineering. I thrive on translating complex algorithms into functional, scalable code. I'm always open to collaborating on the hard problems in AI, particularly in optimizers, distributed training, and RL for reasoning.

@@ -15,10 +15,11 @@ current: home
 >
   <nav class="main-nav overlay clearfix">
     {% if page.logo %}
-      <a class="blog-logo" href="{{ '/' | relative_url }}">
-        <img src="{{ page.logo | relative_url }}" alt="Blog Logo" />
+      <a class="blog-logo text-logo" href="{{ '/' | relative_url }}">{{ site.name }}</a>
       </a>
     {% endif %}
+
+
     {% if page.navigation %}
       <a class="menu-button icon-menu" href="#"><span class="word">Menu</span></a>
     {% endif %}
