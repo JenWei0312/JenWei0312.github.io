@@ -11,13 +11,17 @@ current: home
 <!-- The tag above means - insert everything in this file into the [body] of the default.hbs template -->
 
 <!-- The big featured header  -->
+
 <header class="main-header {% if page.cover %}"
         style="background-image:
-          linear-gradient(to bottom,
-            rgba(0,0,0,0) 30%,
-            rgba(0,0,0,0.25) 50%,
-            rgba(0,0,0,0) 70%),
-          url({{ site.baseurl }}{{ page.cover }})
+            linear-gradient(to right,
+                rgba(0,0,0,0.25) 0%,
+                rgba(0,0,0,0.10) 15%,
+                rgba(0,0,0,0) 30%,
+                rgba(0,0,0,0) 70%,
+                rgba(0,0,0,0.10) 85%,
+                rgba(0,0,0,0.25) 100%),
+            url({{ site.baseurl }}{{ page.cover }})
         {% else %}no-cover{% endif %}">
 
 
