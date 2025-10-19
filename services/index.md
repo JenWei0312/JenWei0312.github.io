@@ -4,6 +4,7 @@ title: Services
 navigation: true
 logo: 'assets/images/fairy.JPG'
 current: services
+permalink: /services/
 ---
 
 I love connecting with fellow builders and researchers. To make our interactions as productive as possible, here are the best ways to engage:

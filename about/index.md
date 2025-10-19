@@ -4,6 +4,7 @@ title: About
 navigation: true
 logo: 'assets/images/fairy.JPG'
 current: about
+permalink: /about/
 ---
 
 Hi there, my name is Jen Wei.

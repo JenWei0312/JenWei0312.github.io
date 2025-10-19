@@ -1,0 +1,29 @@
+- key: about
+  title: About
+  url: /about/
+  excerpt: "My name is Jen Wei. I’m an independent full-stack AI researcher."
+  icon: /assets/images/fairy.JPG
+
+- key: experience
+  title: Experience
+  url: /experience/
+  excerpt: "T-shaped career: before tech, I worked in quantitative finance."
+  icon: /assets/images/fairy.JPG
+
+- key: projects
+  title: Projects
+  url: /projects/
+  excerpt: "I explore model architectures, post-training, optimizers, and distributed systems."
+  icon: /assets/images/fairy.JPG
+
+- key: writing
+  title: Writing
+  url: /technical_writing/
+  excerpt: "Knowledge is power—deep technical notes and reverse-engineering writeups."
+  icon: /assets/images/fairy.JPG
+
+- key: services
+  title: Services
+  url: /services/
+  excerpt: "Here’s how I can help: research, prototyping, reviews, and strategy."
+  icon: /assets/images/fairy.JPG

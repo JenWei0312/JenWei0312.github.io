@@ -4,6 +4,7 @@ title: Experience
 navigation: true
 logo: 'assets/images/fairy.JPG'
 current: experience
+permalink: /experience/
 ---
 
 ### Independent AI researcher (2024 - current)

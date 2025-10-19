@@ -1,0 +1,37 @@
+{%- comment -%}
+Renders a list of site sections (About, Experience, etc.) in the same visual
+style as the Jasper post loop, but without pagination.
+Reads items from _data/sections.yml.
+{%- endcomment -%}
+
+{%- assign items = site.data.sections | default: empty -%}
+
+{%- if items and items.size > 0 -%}
+  {%- for section in items -%}
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title">
+        <a href="{{ section.url | relative_url }}">{{ section.title }}</a>
+      </h2>
+    </header>
+
+    <section class="post-excerpt">
+      <p>
+        {{ section.excerpt }}
+        <a class="read-more" href="{{ section.url | relative_url }}">&raquo;</a>
+      </p>
+    </section>
+
+    <footer class="post-meta">
+      {%- if section.icon -%}
+        <img class="author-thumb" src="{{ section.icon | relative_url }}" alt="{{ section.title }} icon" nopin="nopin" />
+      {%- endif -%}
+
+      <a href="{{ section.url | relative_url }}">{{ section.title }}</a>
+      <time class="post-date" datetime="{{ site.time | date: '%Y-%m-%d' }}">{{ site.time | date_to_string }}</time>
+    </footer>
+  </article>
+  {%- endfor -%}
+{%- else -%}
+  <p class="inner">No sections configured yet. Add them in <code>_data/sections.yml</code>.</p>
+{%- endif -%}

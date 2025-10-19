@@ -4,6 +4,7 @@ title: Projects
 navigation: true
 logo: 'assets/images/fairy.JPG'
 current: projects
+permalink: /projects/
 ---
 
 You can finf most of my work on 🤗 [Hugging Face Hub](https://huggingface.co/bird-of-paradise). As a full-stack foundational AI researcher, my work covers
