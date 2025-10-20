@@ -23,18 +23,8 @@ My approach is grounded in deconstructing, building, and optimizing complex arch
 
 My unique value lies at the intersection of mathematics, model architecture, and systems engineering. I thrive on translating complex algorithms into functional, scalable code. I'm always open to collaborating on the hard problems in AI, particularly in optimizers, distributed training, and RL for reasoning.
 
----
 
-
-
-You can find me on: 
-[🤗 Hugging Face Hub](https://huggingface.co/bird-of-paradise) 
-[![X Profile](/assets/images/x_icon.png)](https://x.com/JenniferWe17599) 
-[![Medium Profile](/assets/images/medium_icon.png)](https://medium.com/@jenwei0312) 
-[![LinkedIn Profile](/assets/images/linkedin_icon.png)](https://www.linkedin.com/in/jenweiprofile/)
+--- 
 
 You can find me on: 
-<a href="#" target="_blank"><img src="/assets/images/huggingface_icon.jpg" alt="Hugging Face Hub" width="32" height="32" style="margin-right: 10px;"></a> 
-<a href="#" target="_blank"><img src="/assets/images/x_icon.jpg" alt="X Profile" width="32" height="32" style="margin-right: 10px;"></a> 
-<a href="#" target="_blank"><img src="/assets/images/medium_icon.jpg" alt="Medium Profile" width="32" height="32" style="margin-right: 10px;"></a> 
-<a href="#" target="_blank"><img src="/assets/images/linkedin_icon.jpg" alt="LinkedIn Profile" width="32" height="32"></a>
+<a href="https://huggingface.co/bird-of-paradise" target="_blank" rel="noopener noreferrer"><img src="/assets/images/huggingface_icon.png" alt="Hugging Face Hub Icon" width="32" height="32" style="margin-right: 10px; vertical-align: middle;"></a><a href="https://x.com/JenniferWe17599" target="_blank" rel="noopener noreferrer"><img src="/assets/images/x_icon.png" alt="X Profile Icon" width="32" height="32" style="margin-right: 10px; vertical-align: middle;"></a><a href="https://medium.com/@jenwei0312" target="_blank" rel="noopener noreferrer"><img src="/assets/images/medium_icon.png" alt="Medium Profile Icon" width="32" height="32" style="margin-right: 10px; vertical-align: middle;"></a><a href="https://www.linkedin.com/in/jenweiprofile/" target="_blank" rel="noopener noreferrer"><img src="/assets/images/linkedin_icon.png" alt="LinkedIn Profile Icon" width="32" height="32" style="vertical-align: middle;"></a>
