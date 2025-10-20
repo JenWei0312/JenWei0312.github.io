@@ -8,9 +8,6 @@ permalink: /about/
 ---
 
 
-
-![](../assets/images/bird-of-paradise-blue-cropped.png)
-
 Hi there, my name is Jen Wei.
 
 As a Full-stack AI Researcher with a PhD in Applied Math, my mission is to bridge the gap between dense theoretical research and efficient, production-ready systems. This December, I'll be sharing this first-principles approach on a global stage, speaking at [**PyData Global 2025**](https://pydata.org/global2025/schedule) on my talk, "I Built a Transformer from Scratch So You Don’t Have To."
