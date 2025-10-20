@@ -26,5 +26,15 @@ My unique value lies at the intersection of mathematics, model architecture, and
 ---
 
 
+
 You can find me on: 
-[🤗 Hugging Face Hub ](https://huggingface.co/bird-of-paradise) [![X](../assets/images/x_icon.png)](https://x.com/JenniferWe17599)  [![Medium](../assets/images/medium_icon.png)](https://medium.com/@jenwei0312) [![LinkedIn](../assets/images/linkedin_icon.png)](https://www.linkedin.com/in/jenweiprofile/)
+[🤗 Hugging Face Hub](https://huggingface.co/bird-of-paradise) 
+[![X Profile](/assets/images/x_icon.png)](https://x.com/JenniferWe17599) 
+[![Medium Profile](/assets/images/medium_icon.png)](https://medium.com/@jenwei0312) 
+[![LinkedIn Profile](/assets/images/linkedin_icon.png)](https://www.linkedin.com/in/jenweiprofile/)
+
+You can find me on: 
+<a href="#" target="_blank"><img src="/assets/images/huggingface_icon.jpg" alt="Hugging Face Hub" width="32" height="32" style="margin-right: 10px;"></a> 
+<a href="#" target="_blank"><img src="/assets/images/x_icon.jpg" alt="X Profile" width="32" height="32" style="margin-right: 10px;"></a> 
+<a href="#" target="_blank"><img src="/assets/images/medium_icon.jpg" alt="Medium Profile" width="32" height="32" style="margin-right: 10px;"></a> 
+<a href="#" target="_blank"><img src="/assets/images/linkedin_icon.jpg" alt="LinkedIn Profile" width="32" height="32"></a>
