@@ -7,6 +7,10 @@ current: about
 permalink: /about/
 ---
 
+
+
+![](../assets/images/bird-of-paradise-blue-cropped.png)
+
 Hi there, my name is Jen Wei.
 
 As a Full-stack AI Researcher with a PhD in Applied Math, my mission is to bridge the gap between dense theoretical research and efficient, production-ready systems. This December, I'll be sharing this first-principles approach on a global stage, speaking at [**PyData Global 2025**](https://pydata.org/global2025/schedule) on my talk, "I Built a Transformer from Scratch So You Don’t Have To."
@@ -18,3 +22,9 @@ My approach is grounded in deconstructing, building, and optimizing complex arch
 - Core Transformers: Authoring the tutorials and code that my PyData talk is based on.
 
 My unique value lies at the intersection of mathematics, model architecture, and systems engineering. I thrive on translating complex algorithms into functional, scalable code. I'm always open to collaborating on the hard problems in AI, particularly in optimizers, distributed training, and RL for reasoning.
+
+---
+
+
+You can find me on: 
+[🤗 Hugging Face Hub ](https://huggingface.co/bird-of-paradise) [![X](../assets/images/x_icon.png)](https://x.com/JenniferWe17599)  [![Medium](../assets/images/medium_icon.png)](https://medium.com/@jenwei0312) [![LinkedIn](../assets/images/linkedin_icon.png)](https://www.linkedin.com/in/jenweiprofile/)
