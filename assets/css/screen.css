@@ -2282,17 +2282,26 @@ body.page-template .post-title {
     margin: 2.75rem auto 1.5rem;
   }
   
+  .section-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto 2rem;
+    width: 100%;
+  }
+  
   .section-header img.section-icon {
-    width: 300px;               /* bigger */
-    height: 300px;
+    width: 320px;               /* slightly larger for balance */
+    height: 320px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
-    margin: 0 auto 0.75rem;
-    border: 0;                  /* remove ring */
-    outline: none;
+    margin: 0 auto 1.5rem;      /* space between image and text */
+    border: none;
     background: transparent;
-    box-shadow: none;           /* clean edge */
+    box-shadow: none;
     transition: transform 0.3s ease;
   }
   
@@ -2301,11 +2310,16 @@ body.page-template .post-title {
   }
   
   .section-header h1 {
-    font-size: 2.4rem;          /* larger text */
+    font-size: 2.8rem;          /* roughly equals markdown # size */
     font-weight: 800;
     line-height: 1.15;
-    margin: 0.4rem 0 0;
+    margin: 0.8rem 0 0;
   }
+  
+  .section-header {
+    margin-top: 4rem;
+  }
+    
   
   
 /* ==========================================================================
