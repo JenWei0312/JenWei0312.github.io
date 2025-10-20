@@ -2277,6 +2277,32 @@ body.page-template .post-title {
   }
   
 
+
+  .section-header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .section-header img.section-icon {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .section-header img.section-icon:hover {
+    transform: scale(1.05);
+  }
+  
+  .section-header h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.

@@ -7,6 +7,8 @@ current: about
 permalink: /about/
 ---
 
+{% include section-header.html %}
+
 
 Hi there, my name is Jen Wei.
 

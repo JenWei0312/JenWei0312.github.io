@@ -7,6 +7,8 @@ current: technical_writing
 permalink: /technical_writing/
 ---
 
+{% include section-header.html %}
+
 Currently, my technical writing is mainly hosted on [Medium](https://medium.com/@jenwei0312). Below is a list of topics I covered so far.
 
 <br>

@@ -7,6 +7,8 @@ current: services
 permalink: /services/
 ---
 
+{% include section-header.html %}
+
 I love connecting with fellow builders and researchers. To make our interactions as productive as possible, here are the best ways to engage:
 
 - For Open Source / Research Collaboration: If you have a specific, substantive idea for a collaboration on a topic of mutual interest (like distributed optimizers or RL for reasoning), feel free to reach out with a detailed proposal.

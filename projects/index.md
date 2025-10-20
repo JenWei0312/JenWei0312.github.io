@@ -7,7 +7,10 @@ current: projects
 permalink: /projects/
 ---
 
-You can finf most of my work on 🤗 [Hugging Face Hub](https://huggingface.co/bird-of-paradise). As a full-stack foundational AI researcher, my work covers
+{% include section-header.html %}
+
+
+You can find most of my work on 🤗 [Hugging Face Hub](https://huggingface.co/bird-of-paradise). As a full-stack foundational AI researcher, my work covers
 
 <br>
 
