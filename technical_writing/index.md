@@ -2,13 +2,14 @@
 layout: page
 title: Writing
 navigation: true
-logo: 'assets/images/fairy.JPG'
+logo: 'assets/images/fairy.jpg'
 current: technical_writing
 permalink: /technical_writing/
 ---
 
 Currently, my technical writing is mainly hosted on [Medium](https://medium.com/@jenwei0312). Below is a list of topics I covered so far.
 
+<br>
 
 ### Reinforcement Learning for Reasoning Tasks
 - [Generate Once, Train Many: Implementing GRPO’s Efficient Sampling from Scratch](https://medium.com/@jenwei0312/generate-once-train-many-implementing-grpos-efficient-sampling-from-scratch-bab8bf7ad3ab)
@@ -21,9 +22,13 @@ Currently, my technical writing is mainly hosted on [Medium](https://medium.com/
 - [Bridging Theory and Practice: Understanding GRPO Implementation Details in Hugging Face’s TRL Library](https://medium.com/@jenwei0312/bridging-theory-and-practice-understanding-grpo-implementation-details-in-hugging-faces-trl-e2c8ae40b0f1)
 
 
+<br>
+
 ### Optimizer
 - [Going Beyond AdamW: A Practical Guide to the Muon Optimizer](https://medium.com/@jenwei0312/when-safety-feels-like-gaslighting-my-experience-with-claude-166c8708e199)
 
+
+<br>
 
 ### Distributed Computing
 - [The “Turtle Speed” Breakthrough 🐢✨ Part 2: The Blueprint for Distributed Chaos](https://medium.com/@jenwei0312/the-turtle-speed-breakthrough-part-2-the-blueprint-for-distributed-chaos-37fe343e7aa9)
@@ -33,17 +38,21 @@ Currently, my technical writing is mainly hosted on [Medium](https://medium.com/
 - [No-BS Glossary: Distributed Training 🚀 + The WHY Behind The How](https://medium.com/@jenwei0312/no-bs-glossary-distributed-training-the-why-behind-the-how-6e5306e5acb4)
 
 
+<br>
 
 ### Engineering Best Prqctices
 - [A Single Function, A World of Engineering: Deep Dive into Memory-Efficient Token Probability Calculation in Hugging Face TRL](https://medium.com/@jenwei0312/a-single-function-a-world-of-engineering-deep-dive-into-memory-efficient-token-probability-ea3a56dbd9fd)
 
 
+<br>
 
 ### AI Ethics
 - [When “Safety” Feels Like Gaslighting: My Experience With Claude](https://medium.com/@jenwei0312/when-safety-feels-like-gaslighting-my-experience-with-claude-166c8708e199)
 
 
 I also cover cutting edge mahine learning research papers for the Batch from 
+
+<br>
 
 ### DeepLeaning AI
 - [10 Million Tokens of Input Context](https://www.deeplearning.ai/the-batch/atlas-a-transformer-like-architecture-can-process-a-context-window-as-large-as-ten-million-tokens/)

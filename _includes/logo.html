@@ -1,0 +1,6 @@
+{% assign logo_path = page.logo | default: site.logo %}
+{% if logo_path %}
+<a class="blog-logo" href="{{ '/' | relative_url }}">
+  <img src="{{ logo_path | relative_url }}" alt="{{ site.name }}">
+</a>
+{% endif %}

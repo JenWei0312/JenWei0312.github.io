@@ -2,7 +2,7 @@
 layout: page
 title: Experience
 navigation: true
-logo: 'assets/images/fairy.JPG'
+logo: 'assets/images/fairy.jpg'
 current: experience
 permalink: /experience/
 ---

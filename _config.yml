@@ -9,6 +9,8 @@ language: 'en-uk'
 # Website info
 name: 'Bird Of Paradise AI' 
 description: "Build with integrity. Push what's possible."
+# _config.yml
+logo: assets/images/fairy.jpg   # use lowercase filename; rename the file if needed
 
 #short_url: 'jekyllt.github.io/jasper/'
 google_analytics: UA-69281367-1

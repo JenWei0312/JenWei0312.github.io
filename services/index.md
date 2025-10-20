@@ -2,7 +2,7 @@
 layout: page
 title: Services
 navigation: true
-logo: 'assets/images/fairy.JPG'
+logo: 'assets/images/fairy.jpg'
 current: services
 permalink: /services/
 ---

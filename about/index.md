@@ -2,7 +2,7 @@
 layout: page
 title: About
 navigation: true
-logo: 'assets/images/fairy.JPG'
+logo: 'assets/images/fairy.jpg'
 current: about
 permalink: /about/
 ---

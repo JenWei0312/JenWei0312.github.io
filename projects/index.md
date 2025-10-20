@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 navigation: true
-logo: 'assets/images/fairy.JPG'
+logo: 'assets/images/fairy.jpg'
 current: projects
 permalink: /projects/
 ---
