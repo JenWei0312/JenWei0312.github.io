@@ -5,6 +5,7 @@ navigation: true
 logo: 'assets/images/fairy.jpg'
 current: services
 permalink: /services/
+show_layout_title: false
 ---
 
 {% include section-header.html %}

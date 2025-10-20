@@ -5,6 +5,7 @@ navigation: true
 logo: 'assets/images/fairy.jpg'
 current: technical_writing
 permalink: /technical_writing/
+show_layout_title: false
 ---
 
 {% include section-header.html %}
