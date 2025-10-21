@@ -20,7 +20,6 @@ Currently, my technical writing is mainly hosted on [Medium](https://medium.com/
   
 - [Beyond `generate()`: A Deep Dive into Stateful, Multi-Turn LLM Rollouts for Tool Use](https://medium.com/@jenwei0312/beyond-generate-a-deep-dive-into-stateful-multi-turn-llm-rollouts-for-tool-use-336b00c99ac0)
 
-
 - [The Evolution of Policy Optimization: Understanding GRPO, DAPO, and Dr. GRPO’s Theoretical Foundations](https://medium.com/@jenwei0312/the-evolution-of-policy-optimization-understanding-grpo-dapo-and-dr-3e758c54b2c6)
 
 - [Bridging Theory and Practice: Understanding GRPO Implementation Details in Hugging Face’s TRL Library](https://medium.com/@jenwei0312/bridging-theory-and-practice-understanding-grpo-implementation-details-in-hugging-faces-trl-e2c8ae40b0f1)
