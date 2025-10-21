@@ -10,8 +10,12 @@ show_layout_title: false
 
 {% include section-header.html %}
 
-### Independent AI researcher (2024 - current)
+**Independent AI researcher (2024 - current)**
 
-### Startup (2020 - current)
+<br>
 
-### Enterprise (2011 - 2019)
+**Startup (2020 - current)**
+
+<br>
+
+**Enterprise (2011 - 2019)**

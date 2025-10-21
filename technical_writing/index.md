@@ -14,7 +14,8 @@ Currently, my technical writing is mainly hosted on [Medium](https://medium.com/
 
 <br>
 
-### Reinforcement Learning for Reasoning Tasks
+**Reinforcement Learning for Reasoning Tasks**
+
 - [Generate Once, Train Many: Implementing GRPO’s Efficient Sampling from Scratch](https://medium.com/@jenwei0312/generate-once-train-many-implementing-grpos-efficient-sampling-from-scratch-bab8bf7ad3ab)
   
 - [Beyond `generate()`: A Deep Dive into Stateful, Multi-Turn LLM Rollouts for Tool Use](https://medium.com/@jenwei0312/beyond-generate-a-deep-dive-into-stateful-multi-turn-llm-rollouts-for-tool-use-336b00c99ac0)
@@ -27,13 +28,15 @@ Currently, my technical writing is mainly hosted on [Medium](https://medium.com/
 
 <br>
 
-### Optimizer
+**Optimizer**
+
 - [Going Beyond AdamW: A Practical Guide to the Muon Optimizer](https://medium.com/@jenwei0312/when-safety-feels-like-gaslighting-my-experience-with-claude-166c8708e199)
 
 
 <br>
 
-### Distributed Computing
+**Distributed Computing**
+
 - [The “Turtle Speed” Breakthrough 🐢✨ Part 2: The Blueprint for Distributed Chaos](https://medium.com/@jenwei0312/the-turtle-speed-breakthrough-part-2-the-blueprint-for-distributed-chaos-37fe343e7aa9)
 
 - [The “Turtle Speed” Breakthrough 🐢✨: Decoding Distributed Optimizers from FSDP to Muon’s Secret Sauce](https://medium.com/@jenwei0312/the-turtle-speed-breakthrough-decoding-distributed-optimizers-from-fsdp-to-muons-secret-sauce-64fc76f20cd7)
@@ -43,13 +46,15 @@ Currently, my technical writing is mainly hosted on [Medium](https://medium.com/
 
 <br>
 
-### Engineering Best Prqctices
+**Engineering Best Prqctices**
+
 - [A Single Function, A World of Engineering: Deep Dive into Memory-Efficient Token Probability Calculation in Hugging Face TRL](https://medium.com/@jenwei0312/a-single-function-a-world-of-engineering-deep-dive-into-memory-efficient-token-probability-ea3a56dbd9fd)
 
 
 <br>
 
-### AI Ethics
+**AI Ethics**
+
 - [When “Safety” Feels Like Gaslighting: My Experience With Claude](https://medium.com/@jenwei0312/when-safety-feels-like-gaslighting-my-experience-with-claude-166c8708e199)
 
 
@@ -57,7 +62,7 @@ I also cover cutting edge mahine learning research papers for the Batch from
 
 <br>
 
-### DeepLeaning AI
+**DeepLeaning AI**
 - [10 Million Tokens of Input Context](https://www.deeplearning.ai/the-batch/atlas-a-transformer-like-architecture-can-process-a-context-window-as-large-as-ten-million-tokens/)
 
 - [Better Spatial Perception for Robots](https://www.deeplearning.ai/the-batch/molmoact-creates-spatial-maps-for-robots-to-plot-their-actions-before-executing-text-directions/)
