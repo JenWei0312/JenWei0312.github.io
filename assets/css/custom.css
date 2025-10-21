@@ -43,43 +43,46 @@
     }
   }
 
+  
+
 /* --- Custom Styles for Section Headers --- */
 
-/* Center the container div for the image and title */
+/* Center the container div AND its children using Flexbox */
 .post-content .section-header {
-    display: block; /* Make sure it's a block */
-    text-align: center; /* Center inline children like text */
-    margin-top: 40px; /* Add space above the whole section */
-    margin-bottom: 30px; /* Add space below the whole section */
+    display: flex;             /* Ensure it's a flex container */
+    flex-direction: column;    /* Stack children vertically (image above title) */
+    align-items: center;     /* Center children horizontally */
+    justify-content: center;   /* Center children vertically (optional) */
+    text-align: center;      /* Center any inline text */
+    margin-top: 40px;        /* Space above the section */
+    margin-bottom: 30px;     /* Space below the section */
 }
 
-/* Style the circular image */
+/* Style the circular image (NO margin: auto needed now) */
 .post-content .section-header .section-icon {
-    display: block; /* Make it a block element */
-    margin-left: auto; /* Auto margin left */
-    margin-right: auto; /* Auto margin right */
-    margin-bottom: 20px; /* Space between image and title */
-    width: 320px; /* Control image size */
-    height: 320px; /* Control image size */
-    border-radius: 50%; /* Ensure it's circular */
-    object-fit: cover; /* Make sure image covers the circle nicely */
-    transition: transform 0.3s ease; /* Keep hover effect */
+    display: block;          /* Keep as block */
+    margin-bottom: 20px;     /* Space between image and title */
+    width: 320px;            /* Control image size */
+    height: 320px;           /* Control image size */
+    border-radius: 50%;      /* Ensure it's circular */
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    /* No margin-left: auto; margin-right: auto; needed */
 }
 
 .post-content .section-header .section-icon:hover {
-    transform: scale(1.05); /* Keep hover effect */
+    transform: scale(1.05);
 }
 
-/* Style the section title */
+/* Style the section title (already centered by parent's text-align/align-items) */
 .post-content .section-header .section-title {
-    font-size: 2.8rem; /* Make title bigger (adjust as needed) */
-    font-weight: 700; /* Make it bolder */
-    margin-top: 0; /* Remove default top margin if needed */
-    margin-bottom: 30px; /* Add space below the title before main text */
-    text-align: center; /* Ensure title text is centered */
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px; /* Space below title */
 }
 
-/* Optional: Add more space before subheadings like 'Pre Training' */
+/* Optional: Add more space before subheadings */
 .post-content h2,
 .post-content h3 {
     margin-top: 40px;
@@ -93,7 +96,7 @@
 /* Media query for smaller screens */
 @media (max-width: 640px) {
   .post-content .section-header .section-icon {
-    width: 240px; 
+    width: 240px;
     height: 240px;
   }
   .post-content .section-header .section-title {
