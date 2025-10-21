@@ -11,6 +11,7 @@ show_layout_title: false
 {% include section-header.html %}
 
 **🧠 Consulting for Startups & Enterprises**
+
 I work with teams that want to bring real technical depth into their AI strategy — without the overhead of hiring full-time.
 
 **Areas I can help with:**
@@ -22,11 +23,13 @@ I work with teams that want to bring real technical depth into their AI strategy
 ---
 
 **🔍 Research Collaboration**
+
 If you’re exploring topics like **optimizers, reinforcement learning for reasoning, or efficient large-model training**, I’m open to collaborations that push the boundaries of applied research.  
 
 ---
 
 **🎤 Speaking & Education**
+
 As a PyData Global 2025 speaker and independent researcher, I occasionally take on talks, workshops, and guest sessions focused on:
 - Distributed systems and training strategies  
 - Reinforcement learning for reasoning tasks  

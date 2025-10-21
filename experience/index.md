@@ -37,5 +37,6 @@ Developed quantitative models for electricity trading, pricing, and renewable in
 ---
 
 **Education & Foundations**
+
 PhD in Applied Mathematics (Dual Degree with MS in Statistics), Michigan State University (2012)
 Master Certificate in Strategic Organizational Leadership & Management, Michigan State University (2015)
