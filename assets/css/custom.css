@@ -2,9 +2,9 @@
 
 /* Center the container div AND its children using Flexbox */
 .post-content .section-header {
-    display: flex;             /* Ensure it's a flex container */
-    flex-direction: column;    /* Stack children vertically (image above title) */
-    align-items: center;     /* Center children horizontally */
+    display: flex !important;             /* Ensure it's a flex container */
+    flex-direction: column !important;    /* Stack children vertically (image above title) */
+    align-items: center !important;     /* Center children horizontally */
     justify-content: center;   /* Center children vertically (optional) */
     text-align: center;      /* Center any inline text */
     margin-top: 40px;        /* Space above the section */
