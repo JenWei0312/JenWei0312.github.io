@@ -1,7 +1,7 @@
 - key: about
   title: About
   url: /about/
-  excerpt: "My name is Jen Wei. I’m an independent full-stack AI researcher."
+  excerpt: "PhD in Applied Math + MS in Statistics. Full-stack AI researcher exploring model architectures, optimizers, and distributed systems from first principles — bridging math, code, and design."
   icons:
     - /assets/images/fairy.jpg
     - /assets/images/x_icon.png
@@ -10,14 +10,14 @@
 - key: experience
   title: Experience
   url: /experience/
-  excerpt: "T-shaped career: before tech, I worked in quantitative finance."
+  excerpt: "T-shaped career across enterprise, startups, and independent research — from quant finance to deep learning and distributed training."
   icons:
     - /assets/images/fairy.jpg
 
 - key: projects
   title: Projects
   url: /projects/
-  excerpt: "I explore model architectures, post-training, optimizers, and distributed systems."
+  excerpt: "Hands-on experiments in attention, optimizers, and scaling laws — from scratch-built Transformers to Muon and FSDP explorations."
   icons:
     - /assets/images/fairy.jpg
     - "🤗"
@@ -25,17 +25,15 @@
 - key: writing
   title: Writing
   url: /technical_writing/
-  excerpt: "Knowledge is power—deep technical notes and reverse-engineering writeups."
+  excerpt: "Bridging theory and practice — reverse-engineering papers, unpacking architectures, and explaining complex AI systems clearly."
   icons:
     - /assets/images/fairy.jpg
     - /assets/images/medium_icon.png
     - /assets/images/deeplearningai_icon.png
 
-
-
 - key: services
   title: Services
   url: /services/
-  excerpt: "Here’s how I can help: research, prototyping, reviews, and strategy."
+  excerpt: "Advisory and consulting for startups, enterprises, and researchers — from architecture reviews to AI systems design and optimization."
   icons: 
-   - /assets/images/fairy.jpg
+    - /assets/images/fairy.jpg

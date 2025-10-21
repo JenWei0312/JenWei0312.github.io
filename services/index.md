@@ -10,12 +10,28 @@ show_layout_title: false
 
 {% include section-header.html %}
 
-I love connecting with fellow builders and researchers. To make our interactions as productive as possible, here are the best ways to engage:
+**🧠 Consulting for Startups & Enterprises**
+I work with teams that want to bring real technical depth into their AI strategy — without the overhead of hiring full-time.
 
-- For Open Source / Research Collaboration: If you have a specific, substantive idea for a collaboration on a topic of mutual interest (like distributed optimizers or RL for reasoning), feel free to reach out with a detailed proposal.
+**Areas I can help with:**
+- **System Design & Architecture:** Translating business or product goals into scalable, efficient AI systems.  
+- **Prototype-to-Production:** Building proof-of-concepts that evolve into maintainable solutions.  
+- **Optimization & Scaling:** Guidance on distributed training, model efficiency, and performance tuning.  
+- **Team Enablement:** Technical mentorship or architecture reviews for early-stage or transitioning AI teams.
 
-- For Advisory & Mentorship: For those seeking strategic guidance, project advice, or mentorship, I offer paid introductory advisory sessions. These 1-hour deep dives are designed to provide key references and discuss practical design trade-offs for your specific project.
+---
 
-- For Speaking Engagements: I am available for a limited number of speaking opportunities on topics related to my research.
+**🔍 Research Collaboration**
+If you’re exploring topics like **optimizers, reinforcement learning for reasoning, or efficient large-model training**, I’m open to collaborations that push the boundaries of applied research.  
 
-Due to the volume of requests, I'm unfortunately unable to offer free one-on-one mentorship or project guidance via DMs. Thank you for your understanding.
+---
+
+**🎤 Speaking & Education**
+As a PyData Global 2025 speaker and independent researcher, I occasionally take on talks, workshops, and guest sessions focused on:
+- Distributed systems and training strategies  
+- Reinforcement learning for reasoning tasks  
+- Demystifying model architectures for developers and researchers  
+
+---
+
+If you’re unsure which track fits your needs, reach out anyway — we can discuss whether your idea is best suited for collaboration, consulting, or advisory work.

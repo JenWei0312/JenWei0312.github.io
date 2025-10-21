@@ -10,18 +10,25 @@ show_layout_title: false
 
 {% include section-header.html %}
 
-
 Hi there, my name is Jen Wei.
 
-As a Full-stack AI Researcher with a PhD in Applied Math, my mission is to bridge the gap between dense theoretical research and efficient, production-ready systems. This December, I'll be sharing this first-principles approach on a global stage, speaking at [**PyData Global 2025**](https://pydata.org/global2025/schedule) on my talk, "I Built a Transformer from Scratch So You Don’t Have To."
+I'm a **T-shaped AI researcher** — a generalist by curiosity, a specialist by discipline.  
+My work sits at the intersection of deep technical research and applied problem-solving: from model architectures and optimization to distributed training and real-world deployment.
 
-My approach is grounded in deconstructing, building, and optimizing complex architectures from the ground up. My current research is focused on the frontier of large-scale model training, where I am actively implementing and analyzing novel optimizers like Muon and navigating the immense challenges of distributed training frameworks such as PyTorch FSDP. This builds on my foundational work in:
+I earned a **PhD in Applied Mathematics and an MS in Statistics** through a dual-degree program — training that taught me to think from first principles, set high standards, and always ask *why*.  
+Years of building real systems from scratch taught me the other side of the equation: how to turn those ideas into working code.  
 
-- RL Architectures: Implementing end-to-end systems like ReTool for strategic tool use. 
-- Advanced Mechanisms: Building DeepSeek's MLA and MoE from scratch. 
-- Core Transformers: Authoring the tutorials and code that my PyData talk is based on.
+In many ways, I’m a hybrid between **scientist and engineer** — I ask “why” more deeply than most engineers, and I think “how” more concretely than most scientists. That balance drives how I approach every project: analytical in reasoning, pragmatic in execution.
 
-My unique value lies at the intersection of mathematics, model architecture, and systems engineering. I thrive on translating complex algorithms into functional, scalable code. I'm always open to collaborating on the hard problems in AI, particularly in optimizers, distributed training, and RL for reasoning.
+Over the past decade, I’ve moved between three worlds:
+- **Enterprise data science**, where I led quantitative modeling for energy and utilities — translating between regulators, traders, and algorithms.  
+- **Startup R&D**, where I was the first hire on a 3D vision SDK team and built the system from zero lines of code to alpha release.  
+- **Independent research**, where I focus on the hard engineering behind modern AI — implementing optimizers like *Muon*, experimenting with distributed frameworks (*FSDP, ZeRO*), and teaching others how these systems actually work.
+
+I’m currently a [**speaker at PyData Global 2025**](https://pydata.org/global2025/schedule), presenting my talk *“I Built a Transformer from Scratch So You Don’t Have To.”*  
+Beyond code and research, I’m passionate about helping others connect the dots — between theory, architecture, and real impact.
+
+Whether you’re scaling AI infrastructure, exploring reinforcement learning for reasoning, or looking for someone who can go from first principles to production — I’m always up for tackling the next hard problem.
 
 
 <br>
