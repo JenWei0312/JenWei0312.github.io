@@ -8,13 +8,25 @@ permalink: /experience/
 show_layout_title: false
 ---
 
-{% include section-header.html %}
+{% include section-header.html %}  
 
 **Independent AI Researcher (2024 – Present)**
 
-Pursuing first-principles AI research focused on optimizers (Muon) and distributed training (FSDP, ZeRO). I explore the “distributed chaos” problem — how synchronization, communication, and memory efficiency shape the economics of large-scale training. 
+I lead self-directed foundational AI research across the full model lifecycle — from pretraining mechanisms to post-training alignment, optimization, and distributed systems.
 
-**Impact:** My write-ups and annotated codebases have helped hundreds of engineers and researchers understand the systems that underpin frontier-scale AI.  
+My work combines first-principles understanding with implementation-level depth. Rather than fine-tuning APIs, I build and analyze core components from scratch — focusing on how modern intelligence systems actually work under the hood.
+
+**Focus Areas:**
+- **Pretraining:** Implemented architectures like DeepSeek’s Multi-Head Latent Attention (MLA) and Mixture-of-Experts (MoE) from first principles.  
+- **Post-training:** Recreated and visualized alignment and reinforcement methods such as DPO, GRPO, and ReTool, including hands-on implementations for strategic tool use in LLMs.  
+- **Optimization:** Authored *“Understanding the Muon Optimizer”* — a deep dive into the theory, math, and implementation of a frontier optimizer used in record-breaking training runs.  
+- **Distributed Systems:** Currently investigating FSDP and ZeRO architectures — decoding how synchronization, communication, and memory define the economics of large-scale model training.  
+
+**Impact:**  
+My annotated codebases, tutorials, and visual guides have been widely used by practitioners learning foundational AI from scratch.  
+This line of work culminated in my upcoming PyData Global 2025 talk:  
+_“I Built a Transformer from Scratch So You Don’t Have To.”_
+
 
 ---
 
