@@ -4,49 +4,70 @@
 
 /* ---------- Section header: centered circle + big title ---------- */
 
+/* Center the container and its children */
 .post-content .section-header{
-    /* center the header block and give it a sane max width */
-    max-width: 980px;
-    margin: 48px auto 32px;
-    text-align: center;
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;     /* horizontal center */
+    justify-content:center;            /* vertical center for the stack */
+    text-align:center;
+    width:100%;
+    margin:3.5rem auto 2.25rem;        /* breathing room */
   }
   
-  /* the circle image */
+  /* Circle image – hard center + neutralize upstream nudges */
   .post-content .section-header .section-icon{
-    display: block;
-    /* size relative to the header block, not the viewport */
-    width: clamp(260px, 60%, 520px);   /* min 260px, normally 60% of header, cap at 520px */
-    aspect-ratio: 1 / 1;               /* keep it perfectly square */
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto 20px;               /* center horizontally, add gap below */
-    box-shadow: none;
-    transform: none;                   /* prevent any hover drift */
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    float: none !important;
+  
+    display:block;
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    object-fit:cover;
+  
+    margin-left:auto !important;
+    margin-right:auto !important;
+    margin-bottom:1.6rem !important;
+  
+    border:0;
+    background:transparent;
+    box-shadow:none;
+    /* don't set transform here; let hover apply it cleanly */
   }
   
-  /* no hover transforms at all */
   .post-content .section-header .section-icon:hover{
-    transform: none;
+    transform: scale(1.05) !important;
   }
   
-  /* section title under the circle */
+  /* Title under the circle: H1 scale + spacing */
   .post-content .section-header .section-title{
-    font-size: clamp(2.2rem, 3.8vw, 3.0rem);
-    font-weight: 800;
-    line-height: 1.15;
-    margin: 10px 0 24px;
+    font-size:2.8rem !important;   /* roughly H1 */
+    font-weight:800;
+    line-height:1.15;
+    margin:0.9rem 0 1rem !important;
   }
   
-  /* comfortable spacing for body content that follows */
-  .post-content h2,
-  .post-content h3{ margin-top: 40px; }
-  
-  .post-content p{ text-align: left; }
-  
-  /* mobile tweak */
-  @media (max-width: 640px){
-    .post-content .section-header{ margin: 36px auto 26px; }
-    .post-content .section-header .section-title{ font-size: 2.2rem; }
+  /* First paragraph after the header gets a little air */
+  .post-content .section-header + p{
+    margin-top:0.6rem !important;
   }
+   /* Keep normal content left-aligned */
+   .post-content p{ text-align:left; }
   
+   /* Optional: give h2/h3 a bit more top space */
+   .post-content h2,
+   .post-content h3{ margin-top:40px; }
+   
+   /* Responsive tweak */
+   @media (max-width: 640px){
+     .post-content .section-header .section-icon{
+       width:240px; height:240px;
+     }
+     .post-content .section-header .section-title{
+       font-size:2.2rem !important;
+     }
+   }
   
