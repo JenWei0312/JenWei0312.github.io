@@ -36,9 +36,9 @@
     /* don't set transform here; let hover apply it cleanly */
   }
   
-  .post-content .section-header .section-icon:hover{
+  /*.post-content .section-header .section-icon:hover{
     transform: scale(1.05) !important;
-  }
+  }*/
   
   /* Title under the circle: H1 scale + spacing */
   .post-content .section-header .section-title{
@@ -69,4 +69,12 @@
       font-size:2.2rem !important;
     }
   }
+
+/* Fix hover jump and preserve perfect centering */
+.post-content .section-header .section-icon {
+    transform-origin: center center !important; /* lock scaling anchor */
+  }
   
+  .post-content .section-header .section-icon:hover {
+    transform: scale(1.05) translateZ(0) !important; /* GPU accelerate, no layout shift */
+  }
