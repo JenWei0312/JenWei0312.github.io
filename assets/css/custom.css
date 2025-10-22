@@ -54,3 +54,42 @@
     font-size: 2.2rem;
   }
 }
+
+/* In custom.css, add/modify the rule for .section-header */
+.post-content .section-header {
+    display: block !important; /* OVERRIDE flex for a moment, treat as block */
+    max-width: 710px; /* Or match theme's main content width */
+    margin-left: auto !important; /* Force center */
+    margin-right: auto !important; /* Force center */
+    text-align: center !important; /* Center inline content like text */
+    margin-top: 40px;
+    margin-bottom: 30px;
+    /* Keep flex rules commented out FOR NOW */
+    /* display: flex !important; */
+    /* flex-direction: column !important; */
+    /* align-items: center !important; */
+}
+
+/* Keep the image rule simple */
+ .post-content .section-header .section-icon {
+    display: block; 
+    margin-left: auto; /* Center image within the block */
+    margin-right: auto;/* Center image within the block */
+    margin-bottom: 20px; 
+    width: 320px;            
+    height: 320px;           
+    border-radius: 50%;      
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Keep title rule simple */
+.post-content .section-header .section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin: 0 0 30px 0; 
+    text-align: center;
+}
+
+/* Keep other rules as they were */
+/* ... */
