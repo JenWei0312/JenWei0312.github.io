@@ -1,58 +1,72 @@
-/* --- Custom Styles for Section Headers --- */
+/* ===========================
+   Bird of Paradise – Section Hero
+   =========================== */
 
-/* Center the container div AND its children using Flexbox */
-.post-content .section-header {
-    display: flex !important;             /* Ensure it's a flex container */
-    flex-direction: column !important;    /* Stack children vertically (image above title) */
-    align-items: center !important;     /* Center children horizontally */
-    justify-content: center;   /* Center children vertically (optional) */
-    text-align: center;      /* Center any inline text */
-    margin-top: 40px;        /* Space above the section */
-    margin-bottom: 30px;     /* Space below the section */
-}
-
-/* Style the circular image (NO margin: auto needed now) */
-.post-content .section-header .section-icon {
-    display: block;          /* Keep as block */
-    margin-bottom: 20px;     /* Space between image and title */
-    width: 320px;            /* Control image size */
-    height: 320px;           /* Control image size */
-    border-radius: 50%;      /* Ensure it's circular */
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    /* No margin-left: auto; margin-right: auto; needed */
-}
-
-.post-content .section-header .section-icon:hover {
-    transform: scale(1.05);
-}
-
-/* Style the section title (already centered by parent's text-align/align-items) */
-.post-content .section-header .section-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 30px; /* Space below title */
-}
-
-/* Optional: Add more space before subheadings */
-.post-content h2,
-.post-content h3 {
-    margin-top: 40px;
-}
-
-/* Ensure paragraph text below the header stays left-aligned */
-.post-content p {
-    text-align: left;
-}
-
-/* Media query for smaller screens */
-@media (max-width: 640px) {
-  .post-content .section-header .section-icon {
-    width: 240px;
-    height: 240px;
+/* Center the container and its children */
+.post-content .section-header{
+    display:flex !important;
+    flex-direction:column !important;
+    align-items:center !important;     /* horizontal center */
+    justify-content:center;            /* vertical center for the stack */
+    text-align:center;
+    width:100%;
+    margin:3.5rem auto 2.25rem;        /* breathing room */
   }
-  .post-content .section-header .section-title {
-    font-size: 2.2rem;
+  
+  /* Circle image – hard center + neutralize upstream nudges */
+  .post-content .section-header .section-icon{
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    float: none !important;
+  
+    display:block;
+    width:320px;
+    height:320px;
+    border-radius:50%;
+    object-fit:cover;
+  
+    margin-left:auto !important;
+    margin-right:auto !important;
+    margin-bottom:1.6rem !important;
+  
+    border:0;
+    background:transparent;
+    box-shadow:none;
+    /* don't set transform here; let hover apply it cleanly */
   }
-}
+  
+  .post-content .section-header .section-icon:hover{
+    transform: scale(1.05) !important;
+  }
+  
+  /* Title under the circle: H1 scale + spacing */
+  .post-content .section-header .section-title{
+    font-size:2.8rem !important;   /* roughly H1 */
+    font-weight:800;
+    line-height:1.15;
+    margin:0.9rem 0 1rem !important;
+  }
+  
+  /* First paragraph after the header gets a little air */
+  .post-content .section-header + p{
+    margin-top:0.6rem !important;
+  }
+  
+  /* Keep normal content left-aligned */
+  .post-content p{ text-align:left; }
+  
+  /* Optional: give h2/h3 a bit more top space */
+  .post-content h2,
+  .post-content h3{ margin-top:40px; }
+  
+  /* Responsive tweak */
+  @media (max-width: 640px){
+    .post-content .section-header .section-icon{
+      width:240px; height:240px;
+    }
+    .post-content .section-header .section-title{
+      font-size:2.2rem !important;
+    }
+  }
+  
