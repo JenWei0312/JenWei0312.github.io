@@ -1,73 +1,56 @@
-/* ===========================
-   Bird of Paradise – Section Hero
-   =========================== */
+/* --- Custom Styles for Section Headers (Simplified Flex Approach) --- */
 
-/* ---------- Section header: centered circle + big title ---------- */
+/* Center the container div AND its children using Flexbox */
+.post-content .section-header {
+    display: flex !important;      /* Force flex display */
+    flex-direction: column !important; /* Stack children vertically */
+    align-items: center !important;  /* <<-- THIS SHOULD DO THE HORIZONTAL CENTERING */
+    width: 100%;                  /* Ensure parent takes full width */
+    margin: 40px 0 30px 0;        /* Top/Bottom margin, NO auto L/R */
+    padding: 0;                   /* Remove padding */
+    box-sizing: border-box;
+}
 
-/* Center the container and its children */
-.post-content .section-header{
-    display:flex !important;
-    flex-direction:column !important;
-    align-items:center !important;     /* horizontal center */
-    justify-content:center;            /* vertical center for the stack */
-    text-align:center;
-    width:100%;
-    margin:3.5rem auto 2.25rem;        /* breathing room */
+/* Style the circular image - REMOVE ALL CENTERING ATTEMPTS FROM HERE */
+.post-content .section-header .section-icon {
+    display: block; /* Image is naturally block-like */
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px; /* Space between image and title */
+    /* REMOVED: margin-left/right: auto, position, left, right, float */
+    transition: transform 0.3s ease;
+}
+
+.post-content .section-header .section-icon:hover {
+    transform: scale(1.05);
+}
+
+/* Style the section title - Parent handles centering */
+.post-content .section-header .section-title {
+    font-size: 2.8rem;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0 0 30px 0; /* Adjust bottom margin as needed */
+    text-align: center; /* Center text just in case */
+}
+
+/* Keep other rules */
+.post-content h2,
+.post-content h3 {
+    margin-top: 40px;
+}
+.post-content p {
+    text-align: left;
+}
+@media (max-width: 640px) {
+  /* ... (keep media query rules) ... */
+  .post-content .section-header .section-icon {
+    width: 240px;
+    height: 240px;
   }
-  
-  /* Circle image – hard center + neutralize upstream nudges */
-  .post-content .section-header .section-icon{
-    position: static !important;
-    left: auto !important;
-    right: auto !important;
-    float: none !important;
-  
-    display:block;
-    width:320px;
-    height:320px;
-    border-radius:50%;
-    object-fit:cover;
-  
-    margin-left:auto !important;
-    margin-right:auto !important;
-    margin-bottom:1.6rem !important;
-  
-    border:0;
-    background:transparent;
-    box-shadow:none;
-    /* don't set transform here; let hover apply it cleanly */
+  .post-content .section-header .section-title {
+    font-size: 2.2rem;
   }
-  
-  .post-content .section-header .section-icon:hover{
-    transform: scale(1.05) !important;
-  }
-  
-  /* Title under the circle: H1 scale + spacing */
-  .post-content .section-header .section-title{
-    font-size:2.8rem !important;   /* roughly H1 */
-    font-weight:800;
-    line-height:1.15;
-    margin:0.9rem 0 1rem !important;
-  }
-  
-  /* First paragraph after the header gets a little air */
-  .post-content .section-header + p{
-    margin-top:0.6rem !important;
-  }
-   /* Keep normal content left-aligned */
-   .post-content p{ text-align:left; }
-  
-   /* Optional: give h2/h3 a bit more top space */
-   .post-content h2,
-   .post-content h3{ margin-top:40px; }
-   
-   /* Responsive tweak */
-   @media (max-width: 640px){
-     .post-content .section-header .section-icon{
-       width:240px; height:240px;
-     }
-     .post-content .section-header .section-title{
-       font-size:2.2rem !important;
-     }
-   }
-  
+}
