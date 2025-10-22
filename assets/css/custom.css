@@ -75,6 +75,6 @@
     transform-origin: center center !important; /* lock scaling anchor */
   }
   
-  .post-content .section-header .section-icon:hover {
+  /*.post-content .section-header .section-icon:hover {
     transform: scale(1.05) translateZ(0) !important; /* GPU accelerate, no layout shift */
-  }
+  /*}*/
