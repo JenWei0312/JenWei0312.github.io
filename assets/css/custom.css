@@ -1,25 +1,26 @@
 /* --- Custom Styles for Section Headers (Simplified Flex Approach) --- */
 
-/* Center the container div AND its children using Flexbox */
+/* --- Custom Styles for Section Headers --- */
+
+/* Container for the section header */
 .post-content .section-header {
-    display: flex !important;      /* Force flex display */
-    flex-direction: column !important; /* Stack children vertically */
-    align-items: center !important;  /* <<-- THIS SHOULD DO THE HORIZONTAL CENTERING */
-    width: 100%;                  /* Ensure parent takes full width */
-    margin: 40px 0 30px 0;        /* Top/Bottom margin, NO auto L/R */
-    padding: 0;                   /* Remove padding */
+    display: block;
+    width: 100%;
+    max-width: 710px; /* Match theme's content width */
+    margin: 40px auto 30px auto; /* Center with auto left/right */
+    padding: 0;
+    text-align: center;
     box-sizing: border-box;
 }
 
-/* Style the circular image - REMOVE ALL CENTERING ATTEMPTS FROM HERE */
+/* Style the circular image */
 .post-content .section-header .section-icon {
-    display: block; /* Image is naturally block-like */
+    display: block;
     width: 320px;
     height: 320px;
+    margin: 0 auto 20px auto; /* Center horizontally, add bottom spacing */
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 20px; /* Space between image and title */
-    /* REMOVED: margin-left/right: auto, position, left, right, float */
     transition: transform 0.3s ease;
 }
 
@@ -27,69 +28,34 @@
     transform: scale(1.05);
 }
 
-/* Style the section title - Parent handles centering */
+/* Style the section title */
 .post-content .section-header .section-title {
     font-size: 2.8rem;
     font-weight: 700;
     line-height: 1.15;
-    margin: 0 0 30px 0; /* Adjust bottom margin as needed */
-    text-align: center; /* Center text just in case */
+    margin: 0 0 30px 0;
+    text-align: center;
 }
 
-/* Keep other rules */
+/* Additional spacing for other headers */
 .post-content h2,
 .post-content h3 {
     margin-top: 40px;
 }
+
+/* Keep paragraphs left-aligned */
 .post-content p {
     text-align: left;
 }
+
+/* Mobile responsive styles */
 @media (max-width: 640px) {
-  /* ... (keep media query rules) ... */
-  .post-content .section-header .section-icon {
-    width: 240px;
-    height: 240px;
-  }
-  .post-content .section-header .section-title {
-    font-size: 2.2rem;
-  }
+    .post-content .section-header .section-icon {
+        width: 240px;
+        height: 240px;
+    }
+    
+    .post-content .section-header .section-title {
+        font-size: 2.2rem;
+    }
 }
-
-/* In custom.css, add/modify the rule for .section-header */
-.post-content .section-header {
-    display: block !important; /* OVERRIDE flex for a moment, treat as block */
-    max-width: 710px; /* Or match theme's main content width */
-    margin-left: auto !important; /* Force center */
-    margin-right: auto !important; /* Force center */
-    text-align: center !important; /* Center inline content like text */
-    margin-top: 40px;
-    margin-bottom: 30px;
-    /* Keep flex rules commented out FOR NOW */
-    /* display: flex !important; */
-    /* flex-direction: column !important; */
-    /* align-items: center !important; */
-}
-
-/* Keep the image rule simple */
- .post-content .section-header .section-icon {
-    display: block; 
-    margin-left: auto; /* Center image within the block */
-    margin-right: auto;/* Center image within the block */
-    margin-bottom: 20px; 
-    width: 320px;            
-    height: 320px;           
-    border-radius: 50%;      
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-/* Keep title rule simple */
-.post-content .section-header .section-title {
-    font-size: 2.8rem;
-    font-weight: 700;
-    margin: 0 0 30px 0; 
-    text-align: center;
-}
-
-/* Keep other rules as they were */
-/* ... */
