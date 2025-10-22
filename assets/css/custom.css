@@ -2,79 +2,60 @@
    Bird of Paradise – Section Hero
    =========================== */
 
-/* Center the container and its children */
+/* ---------- Section header: centered circle + big title ---------- */
+
+/* Use simple block layout (no flex) to avoid any alignment surprises */
 .post-content .section-header{
-    display:flex !important;
-    flex-direction:column !important;
-    align-items:center !important;     /* horizontal center */
-    justify-content:center;            /* vertical center for the stack */
-    text-align:center;
-    width:100%;
-    margin:3.5rem auto 2.25rem;        /* breathing room */
+    display: block !important;
+    text-align: center !important;
+    margin: 48px auto 32px !important;
+    width: 100% !important;
   }
   
-  /* Circle image – hard center + neutralize upstream nudges */
+  /* Center the image, make it a true circle, and remove ALL transforms */
   .post-content .section-header .section-icon{
-    position: static !important;
-    left: auto !important;
-    right: auto !important;
-    float: none !important;
-  
-    display:block;
-    width:320px;
-    height:320px;
-    border-radius:50%;
-    object-fit:cover;
-  
-    margin-left:auto !important;
-    margin-right:auto !important;
-    margin-bottom:1.6rem !important;
-  
-    border:0;
-    background:transparent;
-    box-shadow:none;
-    /* don't set transform here; let hover apply it cleanly */
+    display: block !important;
+    margin: 0 auto 20px !important;   /* centers the image horizontally */
+    width: min(56vw, 520px) !important;  /* responsive but capped */
+    height: min(56vw, 520px) !important; /* keep square for perfect circle */
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    transform: none !important;         /* NO transforms */
+    box-shadow: none !important;
   }
   
-  /*.post-content .section-header .section-icon:hover{
-    transform: scale(1.05) !important;
-  }*/
+  /* EXPLICITLY disable hover effects to prevent any “jump” */
+  .post-content .section-header .section-icon:hover{
+    transform: none !important;
+  }
   
-  /* Title under the circle: H1 scale + spacing */
+  /* Big, bold title with breathing room below the circle */
   .post-content .section-header .section-title{
-    font-size:2.8rem !important;   /* roughly H1 */
-    font-weight:800;
-    line-height:1.15;
-    margin:0.9rem 0 1rem !important;
+    font-size: clamp(2.1rem, 3.8vw, 3.0rem) !important;  /* ≈ # heading size */
+    font-weight: 800;
+    line-height: 1.15;
+    margin: 8px 0 22px !important;       /* space between image and title, and before body text */
   }
   
-  /* First paragraph after the header gets a little air */
-  .post-content .section-header + p{
-    margin-top:0.6rem !important;
-  }
-  
-  /* Keep normal content left-aligned */
-  .post-content p{ text-align:left; }
-  
-  /* Optional: give h2/h3 a bit more top space */
+  /* Comfortable spacing before subheads in the body that follows */
   .post-content h2,
-  .post-content h3{ margin-top:40px; }
+  .post-content h3{
+    margin-top: 40px;
+  }
   
-  /* Responsive tweak */
+  /* Body copy stays left-aligned below the hero header */
+  .post-content p{
+    text-align: left;
+  }
+  
+  /* Mobile tweak: slightly smaller circle + title */
   @media (max-width: 640px){
     .post-content .section-header .section-icon{
-      width:240px; height:240px;
+      width: 260px !important;
+      height: 260px !important;
     }
     .post-content .section-header .section-title{
-      font-size:2.2rem !important;
+      font-size: 2.2rem !important;
     }
   }
-
-/* Fix hover jump and preserve perfect centering */
-.post-content .section-header .section-icon {
-    transform-origin: center center !important; /* lock scaling anchor */
-  }
   
-  /*.post-content .section-header .section-icon:hover {
-    transform: scale(1.05) translateZ(0) !important; /* GPU accelerate, no layout shift */
-  /*}*/
