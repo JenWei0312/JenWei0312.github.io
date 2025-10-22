@@ -1,5 +1,3 @@
-/* --- Custom Styles for Section Headers (Simplified Flex Approach) --- */
-
 /* --- Custom Styles for Section Headers --- */
 
 /* Container for the section header */
@@ -13,7 +11,7 @@
     box-sizing: border-box;
 }
 
-/* Style the circular image */
+/* Style the circular image - override the default img positioning */
 .post-content .section-header .section-icon {
     display: block;
     width: 320px;
@@ -22,10 +20,19 @@
     border-radius: 50%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    /* Override screen.css img positioning */
+    position: static !important;
+    left: auto !important;
+    transform: none !important;
+    -webkit-transform: none !important;
+    -ms-transform: none !important;
+    max-width: 320px !important;
+    padding: 0 !important;
 }
 
 .post-content .section-header .section-icon:hover {
-    transform: scale(1.05);
+    transform: scale(1.05) !important;
+    -webkit-transform: scale(1.05) !important;
 }
 
 /* Style the section title */
