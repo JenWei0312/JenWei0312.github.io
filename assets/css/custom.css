@@ -1,33 +1,38 @@
 /* --- Custom Styles for Section Headers --- */
 
-/* Container for the section header */
+/* Container for the section header - Grid approach for Chrome desktop */
 .post-content .section-header {
-    display: block;
-    width: 100%;
-    max-width: 710px; /* Match theme's content width */
-    margin: 40px auto 30px auto; /* Center with auto left/right */
-    padding: 0;
-    text-align: center;
+    display: grid;
+    place-items: center; /* Modern centering - works great in Chrome */
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 40px auto 30px auto !important;
+    padding: 0 !important;
     box-sizing: border-box;
 }
 
-/* Style the circular image - override the default img positioning */
+/* Wrapper to ensure image stays centered */
 .post-content .section-header .section-icon {
-    display: block;
-    width: 320px;
-    height: 320px;
-    margin: 0 auto 20px auto; /* Center horizontally, add bottom spacing */
+    display: block !important;
+    width: 320px !important;
+    height: 320px !important;
+    margin: 0 auto 20px auto !important;
     border-radius: 50%;
     object-fit: cover;
     transition: transform 0.3s ease;
-    /* Override screen.css img positioning */
+    /* Critical overrides */
     position: static !important;
     left: auto !important;
+    right: auto !important;
     transform: none !important;
     -webkit-transform: none !important;
     -ms-transform: none !important;
     max-width: 320px !important;
     padding: 0 !important;
+    box-sizing: border-box !important;
+    /* Force centering */
+    justify-self: center;
+    align-self: center;
 }
 
 .post-content .section-header .section-icon:hover {
@@ -40,8 +45,11 @@
     font-size: 2.8rem;
     font-weight: 700;
     line-height: 1.15;
-    margin: 0 0 30px 0;
+    margin: 0 auto 30px auto !important;
     text-align: center;
+    width: 100%;
+    max-width: 710px;
+    justify-self: center;
 }
 
 /* Additional spacing for other headers */
@@ -58,11 +66,28 @@
 /* Mobile responsive styles */
 @media (max-width: 640px) {
     .post-content .section-header .section-icon {
-        width: 240px;
-        height: 240px;
+        width: 240px !important;
+        height: 240px !important;
     }
     
     .post-content .section-header .section-title {
         font-size: 2.2rem;
+    }
+}
+
+/* Chrome desktop specific hack */
+@media screen and (min-width: 641px) {
+    @supports (-webkit-appearance:none) {
+        .post-content .section-header {
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+        }
+        
+        .post-content .section-header .section-icon {
+            align-self: center !important;
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
     }
 }
