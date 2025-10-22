@@ -4,58 +4,49 @@
 
 /* ---------- Section header: centered circle + big title ---------- */
 
-/* Use simple block layout (no flex) to avoid any alignment surprises */
 .post-content .section-header{
-    display: block !important;
-    text-align: center !important;
-    margin: 48px auto 32px !important;
-    width: 100% !important;
+    /* center the header block and give it a sane max width */
+    max-width: 980px;
+    margin: 48px auto 32px;
+    text-align: center;
   }
   
-  /* Center the image, make it a true circle, and remove ALL transforms */
+  /* the circle image */
   .post-content .section-header .section-icon{
-    display: block !important;
-    margin: 0 auto 20px !important;   /* centers the image horizontally */
-    width: min(56vw, 520px) !important;  /* responsive but capped */
-    height: min(56vw, 520px) !important; /* keep square for perfect circle */
-    border-radius: 50% !important;
-    object-fit: cover !important;
-    transform: none !important;         /* NO transforms */
-    box-shadow: none !important;
+    display: block;
+    /* size relative to the header block, not the viewport */
+    width: clamp(260px, 60%, 520px);   /* min 260px, normally 60% of header, cap at 520px */
+    aspect-ratio: 1 / 1;               /* keep it perfectly square */
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 20px;               /* center horizontally, add gap below */
+    box-shadow: none;
+    transform: none;                   /* prevent any hover drift */
   }
   
-  /* EXPLICITLY disable hover effects to prevent any “jump” */
+  /* no hover transforms at all */
   .post-content .section-header .section-icon:hover{
-    transform: none !important;
+    transform: none;
   }
   
-  /* Big, bold title with breathing room below the circle */
+  /* section title under the circle */
   .post-content .section-header .section-title{
-    font-size: clamp(2.1rem, 3.8vw, 3.0rem) !important;  /* ≈ # heading size */
+    font-size: clamp(2.2rem, 3.8vw, 3.0rem);
     font-weight: 800;
     line-height: 1.15;
-    margin: 8px 0 22px !important;       /* space between image and title, and before body text */
+    margin: 10px 0 24px;
   }
   
-  /* Comfortable spacing before subheads in the body that follows */
+  /* comfortable spacing for body content that follows */
   .post-content h2,
-  .post-content h3{
-    margin-top: 40px;
-  }
+  .post-content h3{ margin-top: 40px; }
   
-  /* Body copy stays left-aligned below the hero header */
-  .post-content p{
-    text-align: left;
-  }
+  .post-content p{ text-align: left; }
   
-  /* Mobile tweak: slightly smaller circle + title */
+  /* mobile tweak */
   @media (max-width: 640px){
-    .post-content .section-header .section-icon{
-      width: 260px !important;
-      height: 260px !important;
-    }
-    .post-content .section-header .section-title{
-      font-size: 2.2rem !important;
-    }
+    .post-content .section-header{ margin: 36px auto 26px; }
+    .post-content .section-header .section-title{ font-size: 2.2rem; }
   }
+  
   
