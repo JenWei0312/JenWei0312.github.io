@@ -29,7 +29,7 @@
   icons:
     - /assets/images/fairy.jpg
     - /assets/images/medium_icon.png
-    - /assets/images/deeplearningai_icon.png
+    - /assets/images/deeplearningai_icon.jpg
 
 - key: services
   title: Services
