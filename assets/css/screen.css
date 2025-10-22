@@ -26,7 +26,7 @@
    0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
    ========================================================================== */
 
-html {
+   html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -2214,15 +2214,7 @@ body.page-template .post-title {
   .main-header .page-description {
     text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
   }
-  
 
-/*
-  .section-header img.section-icon:hover {
-    transform: scale(1.05);
-  }
-  
-*/
-  
 
 
 /* ==========================================================================
@@ -2286,7 +2278,6 @@ body.page-template .post-title {
 }
 
 
-  
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.
