@@ -36,6 +36,8 @@ Currently, my technical writing is mainly hosted on [Medium](https://medium.com/
 
 **Distributed Computing**
 
+- [The “Turtle Speed” Breakthrough 🐢✨, Part 3: My Map of the Distributed Nightmare](https://medium.com/@jenwei0312/the-turtle-speed-breakthrough-part-3-my-map-of-the-distributed-nightmare-b10ff4affd56)
+
 - [The “Turtle Speed” Breakthrough 🐢✨ Part 2: The Blueprint for Distributed Chaos](https://medium.com/@jenwei0312/the-turtle-speed-breakthrough-part-2-the-blueprint-for-distributed-chaos-37fe343e7aa9)
 
 - [The “Turtle Speed” Breakthrough 🐢✨: Decoding Distributed Optimizers from FSDP to Muon’s Secret Sauce](https://medium.com/@jenwei0312/the-turtle-speed-breakthrough-decoding-distributed-optimizers-from-fsdp-to-muons-secret-sauce-64fc76f20cd7)
