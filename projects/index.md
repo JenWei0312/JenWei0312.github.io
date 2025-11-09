@@ -38,5 +38,5 @@ You can find most of my work on 🤗 [Hugging Face Hub](https://huggingface.co/b
 <br>
 
 **Distributed Training**
-
-- incoming
+- My reverse-engineered, annotated re-implementation of Moonshot’s Muon Is Scalable paper [Distributed Muon: CPU-Friendly Implementation of a Multi-Node Optimizer
+](https://huggingface.co/datasets/bird-of-paradise/muon-distributed)
