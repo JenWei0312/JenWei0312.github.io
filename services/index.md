@@ -10,31 +10,39 @@ show_layout_title: false
 
 {% include section-header.html %}
 
-**🧠 Consulting for Startups & Enterprises**
+> *I help early-stage teams and researchers turn complex AI ideas into working systems.*
 
-I work with teams that want to bring real technical depth into their AI strategy — without the overhead of hiring full-time.
 
-**Areas I can help with:**
-- **System Design & Architecture:** Translating business or product goals into scalable, efficient AI systems.  
-- **Prototype-to-Production:** Building proof-of-concepts that evolve into maintainable solutions.  
-- **Optimization & Scaling:** Guidance on distributed training, model efficiency, and performance tuning.  
-- **Team Enablement:** Technical mentorship or architecture reviews for early-stage or transitioning AI teams.
+## **🧠 Consulting for Startups & Research Teams**
 
----
+I help teams bring real technical depth into their AI roadmap — without the overhead of hiring full-time.
+My focus is on **first-principles design** and **efficient execution**, bridging foundational research and practical engineering.
 
-**🔍 Research Collaboration**
+**What I can help with:**
 
-If you’re exploring topics like **optimizers, reinforcement learning for reasoning, or efficient large-model training**, I’m open to collaborations that push the boundaries of applied research.  
-
----
-
-**🎤 Speaking & Education**
-
-As a PyData Global 2025 speaker and independent researcher, I occasionally take on talks, workshops, and guest sessions focused on:
-- Distributed systems and training strategies  
-- Reinforcement learning for reasoning tasks  
-- Demystifying model architectures for developers and researchers  
+* **System Architecture:** Translating product or research goals into scalable, maintainable AI systems.
+* **Prototype to Production:** Designing and implementing proofs of concept that evolve into robust pipelines.
+* **Optimization & Scaling:** Guidance on distributed training, fine-tuning, and performance efficiency.
+* **R&D Enablement:** Technical mentorship and architecture reviews for early-stage or expanding AI teams.
 
 ---
 
-If you’re unsure which track fits your needs, reach out anyway — we can discuss whether your idea is best suited for collaboration, consulting, or advisory work.
+## **🔍 Research & Open Collaboration**
+
+If you’re working on **optimizers, reinforcement learning for reasoning, or distributed model training**, I’m open to collaborations that push boundaries.
+I bring a hands-on approach — combining implementation, experimentation, and interpretability.
+
+---
+
+## **🎤 Speaking & Education**
+
+As a PyData Global 2025 speaker and independent researcher, I occasionally take on talks, workshops, and guest sessions around:
+
+* Distributed training & system design
+* Reinforcement learning for reasoning tasks
+* Understanding model architectures from first principles
+
+---
+
+If you’re not sure where your idea fits — research, consulting, or strategic advisory — reach out.
+We’ll figure out what makes sense together.
