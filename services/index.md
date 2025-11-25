@@ -46,3 +46,5 @@ As a PyData Global 2025 speaker and independent researcher, I occasionally take 
 
 If you’re not sure where your idea fits — research, consulting, or strategic advisory — reach out.
 We’ll figure out what makes sense together.
+
+📧 my first name @birdofparadise.ai
