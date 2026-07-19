@@ -20,8 +20,8 @@ My work combines the depth of a scientist with the execution of an engineer. I f
 
 Over the past decade, I have worked across three environments:
 
-* **Independent AI research**, developed a Muon-based optimizer for GRPO-style reinforcement learning and extended `olmo-core` with Engram conditional memory to investigate architecture-specific effects on optimization, loss, and gradient stability.
-* **Startup R&D**, joined a 3D vision SDK team as its first hire and took the product from zero to alpha release.
+* **Independent AI research**, developed a Muon-based optimizer for GRPO-style reinforcement learning and extended `olmo-core` with Engram conditional memory to investigate architecture-specific effects on optimization, loss, and gradient stability. [>>](https://birdofparadise.ai/projects/)
+* **Startup R&D**, joined a 3D vision SDK team as its first hire and took the product from zero to alpha release. [>>](https://birdofparadise.ai/experience/)
 * **Enterprise quantitative analysis**, led quantitative modeling for energy and utilities while translating among regulators, traders, domain experts, and algorithms.
 
 I was a [**speaker at PyData Global 2025**](https://www.youtube.com/watch?v=ID5zSzycQBg&list=PLGVZCDnMOq0qmerwB1eITnr5AfYRGm0DF&index=44), where I presented *“I Built a Transformer from Scratch So You Don’t Have To.”* My technical writing and teaching focus on making complex systems understandable without flattening the underlying ideas.
