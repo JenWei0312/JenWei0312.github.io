@@ -32,7 +32,7 @@ _“I Built a Transformer from Scratch So You Don’t Have To.”_
 
 **Industry Work — Building at the Intersection of Data and Systems (2020 – Present)**
 
-- **Principal Data Scientist – InsurTech Startup (2025 – Present)**  
+- **Principal Data Scientist – Tech Startup (2025 – Present)**  
 Designing and deploying pricing models for next-generation insurance risk modeling. Bridging classical statistics and ML-driven automation to bring transparency and speed to underwriting.  
 
 - **Senior Machine Learning Engineer – R&D Team (2021 – 2024)**  
@@ -43,7 +43,7 @@ Led a small data science team delivering predictive modeling for energy and util
 
 ---
 
-**Senior Quantitative Analyst – Energy & Utilities (2011 – 2019)**
+**Senior Quantitative Analyst – Energy & Utilities**
 
 Developed quantitative models for electricity trading, pricing, and renewable investment strategy. Translated between policy, regulation, and math to help clients make multi-million-dollar infrastructure decisions.  
 

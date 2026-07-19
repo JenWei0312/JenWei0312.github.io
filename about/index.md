@@ -10,25 +10,23 @@ show_layout_title: false
 
 {% include section-header.html %}
 
-Hi there, my name is Jen Wei.
+Hi, I’m Jen Wei.
 
-I'm a **T-shaped AI researcher** — a generalist by curiosity, a specialist by discipline.  
-My work sits at the intersection of deep technical research and applied problem-solving: from model architectures and optimization to distributed training and real-world deployment.
+I’m an **AI research engineer and applied mathematician** working across model architecture, optimization, memory, reinforcement learning, and distributed training. I approach research from both directions: asking why a system behaves as it does, then building the infrastructure and experiments required to find out.
 
-I earned a **PhD in Applied Mathematics and an MS in Statistics** through a dual-degree program — training that taught me to think from first principles, set high standards, and always ask *why*.  
-Years of building real systems from scratch taught me the other side of the equation: how to turn those ideas into working code.  
+I earned a **PhD in Applied Mathematics and an MS in Statistics** through a dual-degree program. That training taught me to find the underlying structure of a problem, expose the assumptions doing the real work, and distinguish genuine mechanisms from convenient explanations. Building systems from scratch taught me how to test that judgment in practice—through instrumentation, controlled experiments, and implementations robust enough to reveal when the theory is wrong.
 
-In many ways, I’m a hybrid between **scientist and engineer** — I ask “why” more deeply than most engineers, and I think “how” more concretely than most scientists. That balance drives how I approach every project: analytical in reasoning, pragmatic in execution.
+My work combines the depth of a scientist with the execution of an engineer. I formulate hypotheses, implement the underlying systems, instrument training behavior, diagnose failures, and revise the research direction when the evidence disagrees.
 
-Over the past decade, I’ve moved between three worlds:
-- **Enterprise data science**, where I led quantitative modeling for energy and utilities — translating between regulators, traders, and algorithms.  
-- **Startup R&D**, where I was the first hire on a 3D vision SDK team and built the system from zero lines of code to alpha release.  
-- **Independent research**, where I focus on the hard engineering behind modern AI — implementing optimizers like *Muon*, experimenting with distributed frameworks (*FSDP, ZeRO*), and teaching others how these systems actually work.
+Over the past decade, I have worked across three environments:
 
-I’m currently a [**speaker at PyData Global 2025**](https://pydata.org/global2025/schedule), presenting my talk *“I Built a Transformer from Scratch So You Don’t Have To.”*  
-Beyond code and research, I’m passionate about helping others connect the dots — between theory, architecture, and real impact.
+* **Enterprise data science**, leading quantitative modeling for energy and utilities while translating among regulators, traders, domain experts, and algorithms.
+* **Startup R&D**, joining a 3D vision SDK team as its first hire and building the product from zero lines of code through alpha release.
+* **Independent AI research**, developing optimization methods for GRPO-style reinforcement learning and integrating conditional memory into OLMo to study its interaction with different architectures, loss behavior, and gradient dynamics.
 
-Whether you’re scaling AI infrastructure, exploring reinforcement learning for reasoning, or looking for someone who can go from first principles to production — I’m always up for tackling the next hard problem.
+I was a [**speaker at PyData Global 2025**](https://www.youtube.com/watch?v=ID5zSzycQBg&list=PLGVZCDnMOq0qmerwB1eITnr5AfYRGm0DF&index=44), where I presented *“I Built a Transformer from Scratch So You Don’t Have To.”* My technical writing and teaching focus on making complex systems understandable without flattening the underlying ideas.
+
+I’m most interested in research that demands both conceptual depth and hands-on execution: problems where the question is not yet clean, the system does not yet exist, and the answer has to be earned through careful experimentation.
 
 
 <br>
