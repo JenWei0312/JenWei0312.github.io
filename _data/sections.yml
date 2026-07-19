@@ -21,6 +21,7 @@
   excerpt: "Research engineering at training scale — developing new optimization methods for GRPO-style RL and integrating conditional memory into OLMo to study its interaction with different model architectures."
   icons:
     - /assets/images/fairy.jpg
+    - /assets/images/github_icon.png
     - "🤗"
 
 - key: writing
