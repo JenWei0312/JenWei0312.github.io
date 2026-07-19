@@ -18,7 +18,7 @@ My work is available primarily through the [GitHub](https://github.com/JenWei031
 
 I am developing a Muon-based optimizer variant for GRPO-style reinforcement learning. The project examines whether Muon’s matrix-aware updates can improve stability and optimization behavior in reinforcement-learning settings, where noisy rewards and long-horizon generation create dynamics very different from pretraining.
 
-The work includes optimizer design, integration into the training loop, instrumentation of gradient behavior, and controlled comparisons against conventional optimization baselines.
+The work includes optimizer design, integration into the training loop, instrumentation of gradient behavior, and controlled comparisons against conventional optimization baselines.<br>
 [View the repo](https://huggingface.co/bird-of-paradise/Llama-Hopper-Reasoning-v1)
 
 <br>
@@ -27,28 +27,28 @@ The work includes optimizer design, integration into the training loop, instrume
 
 I extended `olmo-core` with Engram conditional memory to study how external memory interacts with attention-based and hybrid architectures.
 
-The project became a broader investigation of architecture-specific learning dynamics. I traced anomalous loss and gradient behavior to implementation defects, corrected the integration, and reran the experiments to separate genuine memory effects from artifacts of the original code.
+The project became a broader investigation of architecture-specific learning dynamics. I traced anomalous loss and gradient behavior to implementation defects, corrected the integration, and reran the experiments to separate genuine memory effects from artifacts of the original code.<br>
 [View the repo](https://github.com/JenWei0312/OLMo-core/tree/feature/engram-poc)
 
 <br>
 
 **Distributed Muon**
 
-A reverse-engineered and annotated implementation of Moonshot AI’s distributed Muon optimizer, with an emphasis on multi-node communication, CPU offloading, and the systems decisions that make Muon practical at scale.
+A reverse-engineered and annotated implementation of Moonshot AI’s distributed Muon optimizer, with an emphasis on multi-node communication, CPU offloading, and the systems decisions that make Muon practical at scale.<br>
 [View the project](https://huggingface.co/datasets/bird-of-paradise/muon-distributed)
 
 <br>
 
 **Understanding the Muon Optimizer**
 
-A theory-to-code guide to Muon, covering Newton–Schulz orthogonalization, matrix-shaped parameter updates, and the differences between Muon and conventional adaptive optimizers.
+A theory-to-code guide to Muon, covering Newton–Schulz orthogonalization, matrix-shaped parameter updates, and the differences between Muon and conventional adaptive optimizers.<br>
 [View the tutorial](https://huggingface.co/datasets/bird-of-paradise/muon-tutorial)
 
 <br>
 
 **Reinforcement Learning for Tool Use**
 
-A hands-on implementation of ReTool, exploring how reinforcement learning can teach language models when and how to invoke external tools across multi-step reasoning trajectories.
+A hands-on implementation of ReTool, exploring how reinforcement learning can teach language models when and how to invoke external tools across multi-step reasoning trajectories.<br>
 [View the implementation](https://huggingface.co/spaces/bird-of-paradise/ReTool-Implementation)
 
 <br>
