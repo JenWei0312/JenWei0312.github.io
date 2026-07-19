@@ -60,4 +60,4 @@ Implementations of DeepSeek’s Multi-Head Latent Attention and Mixture-of-Exper
 
 **Post-Training Methods, Visualized**
 
-An interactive guide to distillation, preference optimization, RLHF, DPO, and related post-training methods. [››] (https://huggingface.co/spaces/bird-of-paradise/post-training-techniques-guide)
+An interactive guide to distillation, preference optimization, RLHF, DPO, and related post-training methods. [››](https://huggingface.co/spaces/bird-of-paradise/post-training-techniques-guide)
