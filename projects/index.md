@@ -10,29 +10,7 @@ show_layout_title: false
 
 {% include section-header.html %}
 
-My work is available primarily through the
-<a
-  href="https://github.com/JenWei0312"
-  target="_blank"
-  rel="noopener noreferrer"
-  style="display: inline-flex; align-items: center; vertical-align: middle;"
->
-  <img
-    src="/assets/images/github_icon.png"
-    alt="GitHub"
-    width="32"
-    height="32"
-    style="
-      display: inline-block;
-      float: none;
-      margin: 0 0.2em;
-      vertical-align: middle;
-    "
-  >
-</a>
-and 🤗 <a href="https://huggingface.co/bird-of-paradise">Hugging Face Hub</a>.
-These projects range from first-principles implementations of modern AI systems
-to original research on optimization, memory, and training dynamics.
+My work is available primarily through the [<img src="/assets/images/github_icon.png" alt="GitHub" width="32" style="display:inline; margin:0; vertical-align:middle;">](https://github.com/JenWei0312) and 🤗 [Hugging Face Hub](https://huggingface.co/bird-of-paradise). These projects range from first-principles implementations of modern AI systems to original research on optimization, memory, and training dynamics.
 
 <br>
 
