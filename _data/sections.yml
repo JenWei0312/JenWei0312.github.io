@@ -1,7 +1,8 @@
 - key: about
   title: About
   url: /about/
-  excerpt: "PhD in Applied Math + MS in Statistics. Full-stack AI researcher exploring model architectures, optimizers, and distributed systems from first principles — bridging math, code, and design."
+  excerpt: "AI research engineer and applied mathematician who combines deep technical investigation with hands-on execution — studying model architectures, training dynamics, memory, and distributed systems through first-principles experiments."
+
   icons:
     - /assets/images/fairy.jpg
     - /assets/images/x_icon.png
@@ -10,14 +11,14 @@
 - key: experience
   title: Experience
   url: /experience/
-  excerpt: "T-shaped career across enterprise, startups, and independent research — from quant finance to deep learning and distributed training."
+  excerpt: "Experience taking ambiguous AI problems from zero to one: framing the question, building the system, running the experiments, and carrying the work through to practical results."
   icons:
     - /assets/images/fairy.jpg
 
 - key: projects
   title: Projects
   url: /projects/
-  excerpt: "Hands-on experiments in attention, optimizers, and scaling laws — from scratch-built Transformers to Muon and FSDP explorations."
+  excerpt: "Research engineering at training scale — developing new optimization methods for GRPO-style RL and integrating conditional memory into OLMo to study its interaction with different model architectures."
   icons:
     - /assets/images/fairy.jpg
     - "🤗"
