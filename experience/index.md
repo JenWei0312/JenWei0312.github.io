@@ -12,7 +12,7 @@ show_layout_title: false
 
 **Independent AI Researcher (2024 – Present)**
 
-Conduct self-directed research on optimization, reinforcement learning, memory, and training dynamics. Current work includes developing a Muon-based optimizer for GRPO-style reinforcement learning and extending olmo-core with Engram conditional memory. [>>](https://birdofparadise.ai/projects/)
+Conduct self-directed research on optimization, reinforcement learning, memory, and training dynamics. Current work includes developing a Muon-based optimizer for GRPO-style reinforcement learning and extending olmo-core with Engram conditional memory. [››](https://birdofparadise.ai/projects/)
 
 
 ---
