@@ -17,29 +17,21 @@ Conduct self-directed research on optimization, reinforcement learning, memory, 
 
 ---
 
-**Industry Work — Building at the Intersection of Data and Systems (2020 – Present)**
+**Industry Experience**
 
-**Principal Data Scientist — Technology Startup**
-
-**2025 – Present**
+**Principal Data Scientist — Technology Startup &emsp; (2025 – Present)**
 
 Develop computer-vision systems for extracting structured intelligence from aerial imagery. Lead ambiguous R&D problems from problem formulation and data strategy through model development, evaluation, and production-oriented workflows.
 
-**Senior Machine Learning Engineer — 3D Vision R&D**
-
-**2021 – 2024**
+**Senior Machine Learning Engineer — 3D Vision R&D &emsp; (2021 – 2024)**
 
 Joined a 3D perception SDK team as its first hire and took the product from zero to alpha release. Designed model-training, inference, packaging, and deployment workflows for LiDAR-based object detection.
 
-**Data Science Technical Lead — Consulting Startup**
-
-**2020**
+**Data Science Technical Lead — Consulting Startup  &emsp; (2020)**
 
 Led quantitative modeling projects for energy and utilities clients. Established reproducible workflows, translated business and regulatory questions into analytical systems, and mentored junior analysts.
 
-- **Senior Quantitative Analyst — Energy & Utilities**
-
-Earlier experience
+**Senior Quantitative Analyst — Energy & Utilities  &emsp; (Earlier experience)**
 
 Developed models for electricity trading, pricing, and renewable-investment strategy. Connected policy, regulation, market behavior, and mathematics to support major infrastructure decisions.
 
