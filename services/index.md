@@ -13,7 +13,7 @@ show_layout_title: false
 > *I help early-stage teams and researchers turn complex AI ideas into working systems.*
 
 
-## **🧠 Consulting for Startups & Research Teams**
+**🧠 Consulting for Startups & Research Teams**
 
 I help teams bring real technical depth into their AI roadmap — without the overhead of hiring full-time.
 My focus is on **first-principles design** and **efficient execution**, bridging foundational research and practical engineering.
@@ -27,14 +27,14 @@ My focus is on **first-principles design** and **efficient execution**, bridging
 
 ---
 
-## **🔍 Research & Open Collaboration**
+**🔍 Research & Open Collaboration**
 
 If you’re working on **optimizers, reinforcement learning for reasoning, or distributed model training**, I’m open to collaborations that push boundaries.
 I bring a hands-on approach — combining implementation, experimentation, and interpretability.
 
 ---
 
-## **🎤 Speaking & Education**
+**🎤 Speaking & Education**
 
 As a PyData Global 2025 speaker and independent researcher, I occasionally take on talks, workshops, and guest sessions around:
 

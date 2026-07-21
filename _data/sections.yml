@@ -14,6 +14,7 @@
   excerpt: "Experience taking ambiguous AI problems from zero to one: framing the question, building the system, running the experiments, and carrying the work through to practical results."
   icons:
     - /assets/images/fairy.jpg
+    - /assets/images/linkedin_icon.png
 
 - key: projects
   title: Projects
@@ -30,6 +31,7 @@
   excerpt: "Bridging theory and practice — reverse-engineering papers, unpacking architectures, and explaining complex AI systems clearly."
   icons:
     - /assets/images/fairy.jpg
+    - "🤗"
     - /assets/images/medium_icon.png
     - /assets/images/deeplearningai_icon.jpg
 
@@ -39,3 +41,4 @@
   excerpt: "Advisory and consulting for startups, enterprises, and researchers — from architecture reviews to AI systems design and optimization."
   icons: 
     - /assets/images/fairy.jpg
+    - "📧" 
