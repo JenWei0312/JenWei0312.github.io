@@ -36,7 +36,7 @@ I bring a hands-on approach — combining implementation, experimentation, and i
 
 **🎤 Speaking & Education**
 
-As a PyData Global 2025 speaker and independent researcher, I occasionally take on talks, workshops, and guest sessions around:
+As a PyTorch Conference North America 2026 and PyData Global 2025 speaker and independent researcher, I occasionally take on talks, workshops, and guest sessions around:
 
 * Distributed training & system design
 * Reinforcement learning for reasoning tasks
