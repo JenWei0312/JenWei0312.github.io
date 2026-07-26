@@ -10,7 +10,7 @@ show_layout_title: false
 
 {% include section-header.html %}  
 
-**Independent AI Researcher (2024 – Present)**
+**Independent AI Researcher &emsp; (2024 - present)**
 
 Conduct self-directed research on optimization, reinforcement learning, memory, and training dynamics. Current work includes developing a Muon-based optimizer for GRPO-style reinforcement learning and extending olmo-core with Engram conditional memory. [››](https://birdofparadise.ai/projects/)
 
@@ -19,19 +19,19 @@ Conduct self-directed research on optimization, reinforcement learning, memory, 
 
 **Industry Experience**
 
-**Principal Data Scientist — Technology Startup &emsp; (2025 – Present)**
+**Principal Data Scientist — Technology Startup**
 
 Develop computer-vision systems for extracting structured intelligence from aerial imagery. Lead ambiguous R&D problems from problem formulation and data strategy through model development, evaluation, and production-oriented workflows.
 
-**Senior Machine Learning Engineer — 3D Vision R&D &emsp; (2021 – 2024)**
+**Senior Machine Learning Engineer — 3D Vision R&D**
 
 Joined a 3D perception SDK team as its first hire and took the product from zero to alpha release. Designed model-training, inference, packaging, and deployment workflows for LiDAR-based object detection.
 
-**Data Science Technical Lead — Consulting Startup  &emsp; (2020)**
+**Data Science Technical Lead — Consulting Startup**
 
 Led quantitative modeling projects for energy and utilities clients. Established reproducible workflows, translated business and regulatory questions into analytical systems, and mentored junior analysts.
 
-**Senior Quantitative Analyst — Energy & Utilities  &emsp; (Earlier experience)**
+**Senior Quantitative Analyst — Energy & Utilities**
 
 Developed models for electricity trading, pricing, and renewable-investment strategy. Connected policy, regulation, market behavior, and mathematics to support major infrastructure decisions.
 
